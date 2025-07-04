@@ -106,7 +106,80 @@ section.gallery {
         }
     }
 
+    @media (max-width: 48rem) {
+        & {
+            padding: 4rem 3.2rem;
+            & header {
+                & span {
+                    font-size: 1.25rem;
+                }
+                & h2 {
+                    font-size: 3.5rem;
+                }
+            }
+            .content {
+                display: flex;
+                flex-direction: column;
+                gap: 2.4rem;
+            & figure {
+                > img {
+                    height: 40rem;
+                }
+            }
+            }
+        }
+    }
+    
+    @media (max-width: 46.08rem) {
+        & {
+            padding: 3.84rem 3.072rem;
+            & header {
+                & span {
+                    font-size: 1.2rem;
+                }
+                & h2 {
+                    font-size: 3.36rem;
+                }
+            }
+            .content {
+                display: flex;
+                flex-direction: column;
+                gap: 2.304;
+            & figure {
+                > img {
+                    height: 38.4rem;
+                }
+            }
+            }
+        }
+    }
+    
+    @media (max-width: 30rem) {
+        & {
+            padding: 2.5rem 2rem;
+            & header {
+                & span {
+                    font-size: .78rem;
+                }
+                & h2 {
+                    font-size: 2.18rem;
+                }
+            }
+            .content {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+            & figure {
+                > img {
+                    height: 25rem;
+                }
+            }
+            }
+        }
+    }
 }
+
+
 
 @keyframes image-appear {
     from {
